@@ -1,0 +1,17 @@
+{
+  "name": "pure.rfslocal.site",
+  "version": "1.0.0",
+  "description": "PURE Center for Integrated Health",
+  "main": "index.js",
+  "author": "Redfin Solutions, LLC",
+  "license": "none",
+  "dependencies": {
+    "autoprefixer": "^7.1.3",
+    "breakpoint-sass": "^2.7.1",
+    "browsersync": "^0.0.1-security",
+    "dart-sass": "^1.0.0-beta.2",
+    "postcss": "^6.0.10",
+    "postcss-cli": "^4.1.0",
+    "sass-lint": "^1.11.1"
+  }
+}

@@ -1,0 +1,15 @@
+@import "../node_modules/breakpoint-sass/stylesheets/breakpoint;
+
+.center-max {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.hide-under-750 {
+  display: none;
+
+  @include breakpoint(750px) {
+    display: block;
+  }
+}

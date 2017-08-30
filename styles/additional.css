@@ -1,0 +1,16 @@
+.center-max {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+
+.hide-under-750 {
+  display: none;
+}
+@media (min-width: 750px) {
+  .hide-under-750 {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIl9pbnRlcm1lZGlhdGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsbUJBQW1CO0VBQ25CLGdCQUFnQjtFQUNoQixhQUFhO0NBQ2Q7O0FBRUQ7RUFDRSxjQUFjO0NBQ2Y7QUFDRDtFQUNFO0lBQ0UsZUFBZTtHQUNoQjtDQUNGIiwiZmlsZSI6ImFkZGl0aW9uYWwuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNlbnRlci1tYXgge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIG1heC13aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiBhdXRvO1xufVxuXG4uaGlkZS11bmRlci03NTAge1xuICBkaXNwbGF5OiBub25lO1xufVxuQG1lZGlhIChtaW4td2lkdGg6IDc1MHB4KSB7XG4gIC5oaWRlLXVuZGVyLTc1MCB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gIH1cbn1cbiJdfQ== */

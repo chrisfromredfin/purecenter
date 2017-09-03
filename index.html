@@ -126,9 +126,9 @@ Licence URI: http://www.os-templates.com/template-terms
       <figure>
         <figcaption class="bold heading">Hear it from:</figcaption>
         <ul class="nospace group">
-          <li class="one_third first"><a href="#" data-id="testimonial-1"><img src="/images/morgan-thumb.jpg" alt="girl and horse jumping over fence"></a></li>
-          <li class="one_third"><a href="#" data-id="testimonial-2"><img src="/images/alyssa-thumb.jpg" alt=""></a></li>
-          <li class="one_third"><a href="#" data-id="testimonial-3"><img src="/images/sarah-thumb.jpg" alt=""></a></li>
+          <li class="one_third first"><a href="#t-gallery" data-id="testimonial-1"><img src="/images/morgan-thumb.jpg" alt="girl and horse jumping over fence"></a></li>
+          <li class="one_third"><a href="#t-gallery" data-id="testimonial-2"><img src="/images/alyssa-thumb.jpg" alt=""></a></li>
+          <li class="one_third"><a href="#t-gallery" data-id="testimonial-3"><img src="/images/sarah-thumb.jpg" alt=""></a></li>
         </ul>
       </figure>
       <!-- ################################################################################################ -->
@@ -258,7 +258,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear">
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - PURE Center for Integrated Health</p>
+    <p class="fl_left">Copyright &copy; <script>document.write(new Date().getFullYear())</script><noscript>2017 to present</noscript> - All Rights Reserved - PURE Center for Integrated Health</p>
     <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a><br/><a href="https://redfinsolutions.com" target="_redfin">a redfin solution</a></p>
     <!-- ################################################################################################ -->
   </div>
@@ -273,8 +273,15 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="/scripts/jquery.backtotop.js"></script>
 <script src="/scripts/jquery.mobilemenu.js"></script>
 <script src="https://use.fontawesome.com/eddeeecbd9.js"></script>
-<script id="__bs_script__">//<![CDATA[
-document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
-//]]></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105802900-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

@@ -29,11 +29,9 @@ $(function() {
   $('#t-gallery .testimonial:visible img.full').show();
 
   $('#t-gallery ul li a').click(function(e){
-    e.preventDefault();
     var want = $(this).attr('data-id');
     $( ".testimonial:visible" ).fadeOut(250, function(){
-      $('.testimonial[data-id="'+want+'"], .testimonial[data-id="'+want+'"] img.full').fadeIn( 250 );
+      $('.testimonial[data-id="'+want+'"], .testimonial[data-id="'+want+'"] img.full').fadeIn(250);
     });
-    return false;
   });
 });
